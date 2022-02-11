@@ -1,0 +1,112 @@
+.container{
+    height: 600px;
+    width: 1480px;
+    max-height: 100%;
+    background-color: bisque;
+    border-radius: 10px;
+    border: 1px solid;
+    margin: 20px;
+}
+.heading{
+    padding-left: 20px;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-left{
+    width: 60%;
+    
+}
+.content-left-fieldset, .content-right-fieldset{
+    height:500px
+}
+td a {
+    color: black
+}
+.content-right{
+    width: 40%;
+}
+.content-left-table{
+    width: 100%;
+}
+.content-right-table{
+    width: 100%;
+}
+.content-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.content-right-contain {
+    display: flex;
+}
+.content-right-contain2 {
+    display: flex;
+    margin-top: 4%;
+}
+.content-right-contain3 {
+    display: flex;
+    margin-top: 4%;
+}
+.content-right-input{
+    margin-left: 40px;
+}
+.content-right-input-code{
+    margin-left: 42px;
+}
+.content-right-contain4{
+    display: flex;
+    margin-left: 94px;
+    margin-top: 4%;
+}
+.content-right-input1{
+
+    margin-left: 60px;
+}
+.content-right-select{
+    margin-left: 52px;
+}
+.content-right-input-price{
+    margin-left: 100px;
+}
+.content-right-input-date{
+    margin-left: 52px;
+}
+.content-right-input-des{
+    margin-left: 82px;
+}
+.btn_submit{
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+header{
+    height:50px;
+    background-color: #ccc;
+    width:1480px;
+    margin-left: 20px;
+
+}
+nav{
+    text-align: center;
+}
+nav li {
+    list-style: none;
+    display: inline-block;  
+    line-height: 50px;
+    padding-left: 20px;
+}
+nav li a {
+    text-decoration: none;
+    display: inline-block;
+}
+footer{
+    background-color: #ccc;
+    height: 50px;
+    margin-left: 20px;
+    width:1480px;
+    text-align: center;
+}
+footer span {
+    line-height: 50px;
+}
